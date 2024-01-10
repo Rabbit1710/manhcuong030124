@@ -1,0 +1,26 @@
+@import url('header.css');
+@import url('nav.css');
+@import url('main.css');
+@import url('footer.css');
+.container{
+    width:1170px;
+    margin:auto;
+}
+body{
+    margin:0;
+}
+.row{
+    display:flex;
+}
+
+.grid{
+    display:grid;
+    grid-gap:20px;
+    grid-template-columns: auto auto auto;
+    
+}
+.footer__top .grid{
+display:grid;
+grid-template-columns: 35% 15% 25% 25%;
+grid-gap:20px;
+}

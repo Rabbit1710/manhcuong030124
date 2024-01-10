@@ -1,0 +1,40 @@
+nav{
+    background-color:#222326;
+    
+}
+.nav__left{
+    width:90%;
+    
+}
+.nav__left ul{
+    margin:0;
+    padding:0;
+    display:flex;
+}
+.nav__left ul li{
+    list-style:none;
+    
+    
+}
+
+.nav__left ul li a:hover{
+    background-color: #696969;
+}
+.nav__left ul li.active{
+    background-color: #696969;
+}
+    
+.nav__left ul li a{
+    text-decoration: none;
+    font-size:14px;
+    text-transform: uppercase;
+    color:white;
+    display:block;
+    padding:20px;
+} 
+.nav__right{
+    color:white;
+    text-align:right;
+    width:10%;
+    padding:20px;
+}

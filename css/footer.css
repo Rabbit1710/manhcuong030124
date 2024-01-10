@@ -1,0 +1,114 @@
+footer{
+    padding-top:20px;
+}
+.footer__top{
+    background-color: #222326;
+}
+.footerTop__aboutUs{
+    color:white;
+    
+}
+.footerTop__aboutUs h3{
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top:45px;
+    margin:0;
+}
+.footerTop__aboutUs p{
+    font-size: 15px;
+    text-align: left;
+    padding:30px 50px 30px 70px;
+    margin:0;
+}
+.footerTop__aboutUs ul{
+    font-size: 15px;
+    margin:0;
+    padding-left:70px;
+    padding-right:50px;
+}
+.footerTop__aboutUs ul li{
+    list-style: none;
+    margin-bottom:15px;
+}
+.footerTop__aboutUs ul li span{}
+.footerTop__aboutUs span{}
+.grid__icon{
+    display:grid;
+    grid-template-columns: 20px 20px 20px 20px 20px;
+    grid-gap:10px;
+}
+.footerTop__sitemap{
+    color:white;
+}
+.footerTop__sitemap h3{
+    padding-top:45px;
+    font-size: 25px;
+    text-align:left;
+    text-transform: uppercase;
+    margin:0;
+}
+.footerTop__sitemap ul{
+    font-size:15px;
+    padding:20px;
+}
+.footerTop__sitemap ul li{
+    list-style:circle;
+    color:yellow;
+    margin-bottom:25px;
+}
+.footerTop__sitemap ul li a{
+    text-decoration: none;
+    color:white;
+}
+.footerTop__products{}
+.footerTop__products h3{
+    padding-top:45px;
+    color:white;
+    font-size: 25px;
+    text-align: left;
+    text-transform: uppercase;
+    margin:0;
+}
+
+.footerTop__products ul{
+    font-size: 15px;
+    padding:20px;
+    
+}
+.footerTop__products ul li{
+    list-style:circle;
+    color:yellow;
+    margin-bottom:25px;
+   
+}
+.footerTop__products ul li a{
+    text-decoration: none;
+    color:white;
+}
+.footerTop__fanpage{}
+.footerTop__fanpage h3{
+    margin:0;
+    padding-top:45px;
+    color:white;
+    font-size: 25px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom:30px;
+}
+.footerTop__fanpageImage{}
+.footerTop__fanpageImage img{
+    width:75%;
+}
+.footer__bottom{
+    background-color: #1a1c1f;
+    color:white;
+}
+
+.footerBottom_left{
+    width:80%
+}
+.footerBottom_right{
+    width: 20%;
+    text-align:end;
+}
