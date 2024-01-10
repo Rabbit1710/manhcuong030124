@@ -7,6 +7,7 @@ header {}
   color: white;
   padding: 10px;
   font-size: 13px;
+  font-family: "ArialMT";
 
 
 }
@@ -23,6 +24,9 @@ header {}
   margin-top: 0;
   margin-bottom: 10px;
   color: white;
+  font-family: "Opensans";
+  text-shadow:0px 1px 3px rgb(81, 80, 80);
+ 
 }
 
 .header__bottom ul {
@@ -30,6 +34,7 @@ header {}
   padding: 0;
   font-size: 14px;
   color: white;
+  text-shadow:0px 1px 5px rgb(94, 92, 92);
 }
 
 .header__bottom ul li {

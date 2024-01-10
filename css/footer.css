@@ -2,6 +2,7 @@ footer{
     padding-top:20px;
 }
 .footer__top{
+    padding-bottom:20px;
     background-color: #222326;
 }
 .footerTop__aboutUs{
@@ -10,7 +11,7 @@ footer{
 }
 .footerTop__aboutUs h3{
     font-size: 25px;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     padding-top:45px;
     margin:0;
@@ -18,26 +19,49 @@ footer{
 .footerTop__aboutUs p{
     font-size: 15px;
     text-align: left;
-    padding:30px 50px 30px 70px;
+    padding-top:30px;
+    padding-bottom:30px;
     margin:0;
 }
 .footerTop__aboutUs ul{
     font-size: 15px;
     margin:0;
-    padding-left:70px;
-    padding-right:50px;
+    padding:0;
 }
 .footerTop__aboutUs ul li{
     list-style: none;
-    margin-bottom:15px;
+    
 }
-.footerTop__aboutUs ul li span{}
-.footerTop__aboutUs span{}
-.grid__icon{
+.footerTop__aboutUs ul li span{
+    
+}
+.footerTop__aboutUs ul li span:first-child{
+    width:3px;
+}
+.footerTop__aboutUs ul li:last-child{
+    margin-bottom:20px;
+}
+.footerTop__aboutUsInfo li{
+    display:flex;
+    
+}
+.footerTop__aboutUsInfo li span{
+    display:block;
+    margin:10px;
+}
+.footerTop_aboutUsNetworkSocial{
+ 
+}
+.footerTop_aboutUsNetworkSocial {
     display:grid;
     grid-template-columns: 20px 20px 20px 20px 20px;
     grid-gap:10px;
 }
+.footerTop_aboutUsNetworkSocial li span{
+    display:block;
+}
+
+
 .footerTop__sitemap{
     color:white;
 }
@@ -47,16 +71,29 @@ footer{
     text-align:left;
     text-transform: uppercase;
     margin:0;
+    padding-bottom:30px;
 }
 .footerTop__sitemap ul{
     font-size:15px;
-    padding:20px;
+    padding:0;
+    margin:0;
 }
 .footerTop__sitemap ul li{
-    list-style:circle;
-    color:yellow;
+    list-style:none;
+    
     margin-bottom:25px;
 }
+.footerTop__sitemap ul li::before{
+
+    content:"\A";
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background: yellow;
+    display:inline-block;
+    margin-right:10px;
+}
+
 .footerTop__sitemap ul li a{
     text-decoration: none;
     color:white;
@@ -73,15 +110,25 @@ footer{
 
 .footerTop__products ul{
     font-size: 15px;
-    padding:20px;
+    padding:0;
+    
     
 }
 .footerTop__products ul li{
-    list-style:circle;
-    color:yellow;
+    list-style: none;
     margin-bottom:25px;
    
 }
+.footerTop__products ul li::before{
+    content:"\A";
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background: yellow;
+    display:inline-block;
+    margin-right:10px;
+}
+
 .footerTop__products ul li a{
     text-decoration: none;
     color:white;
@@ -101,14 +148,20 @@ footer{
     width:75%;
 }
 .footer__bottom{
+   height:60px;
     background-color: #1a1c1f;
     color:white;
 }
 
-.footerBottom_left{
-    width:80%
+.footerBottom__left{
+    padding-top:20px;
+    width:75%;
+    font-size:14px;
 }
-.footerBottom_right{
-    width: 20%;
-    text-align:end;
+.footerBottom__right{
+    width: 25%;
+    text-align:right;
+    font-size:14px;
+    padding-top:20px;
+    
 }

@@ -58,7 +58,7 @@
     background-color:#3b84b0;
     
 }
- .productHome__list .products a.active{
+ .productHome__list .products.active{
     background-color:#3b84b0;
 }
 .productHome__list .products a{

@@ -24,3 +24,12 @@ display:grid;
 grid-template-columns: 35% 15% 25% 25%;
 grid-gap:20px;
 }
+
+@font-face {
+    font-family: "ArialMT";
+    src: url("../font/ARIALMT.ttf");
+}
+@font-face {
+    font-family: "Opensans";
+    src: url("../font/OpenSans-ExtraBold.ttf");
+}
