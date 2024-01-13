@@ -37,6 +37,7 @@ footer{
 }
 .footerTop__aboutUs ul li span:first-child{
     width:3px;
+   
 }
 .footerTop__aboutUs ul li:last-child{
     margin-bottom:20px;
@@ -48,6 +49,10 @@ footer{
 .footerTop__aboutUsInfo li span{
     display:block;
     margin:10px;
+    
+}
+.footerTop__aboutUsInfo li span:first-child{
+    color:yellow;
 }
 .footerTop_aboutUsNetworkSocial{
  

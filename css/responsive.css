@@ -1,0 +1,49 @@
+@media (max-width:767px){
+    .container{
+        width: 100%;
+    }
+    .row{
+        display:block;
+    }
+   .main__left{
+    width: 100%;
+   }
+  .main__right{
+    width: 100%;
+    margin:0;
+  }
+  .productHome__list {
+  
+    grid-template-columns: auto auto;
+}
+.productHome__title .row{
+    display:flex;
+}
+.productHome__heading{
+    width: 60%;
+}
+.productHome_link{
+    width: 40%;
+    padding:15px;
+}
+.footer{
+    width: 100px;
+}
+.footerTop__aboutUs{
+    width: 100%;
+}
+.footerTop__sitemap{
+    width: 100%;
+}
+.footerTop__products{
+    width: 100%;
+}
+.footerTop__fanpage{
+    width: 100%;
+}
+.footer__top .grid {
+
+    grid-template-columns: auto;
+    
+}
+}

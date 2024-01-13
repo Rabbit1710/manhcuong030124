@@ -13,14 +13,14 @@ nav{
 }
 .nav__left ul li{
     list-style:none;
-    
+    position:relative;
     
 }
 
 .nav__left ul li a:hover{
     background-color: #696969;
 }
-.nav__left ul li.active{
+.nav__left ul li.active a{
     background-color: #696969;
 }
     
@@ -32,9 +32,33 @@ nav{
     display:block;
     padding:20px;
 } 
+.nav__left ul li ul.subMenu{
+    position: absolute;
+   display:none;
+    width: 200px;
+z-index: 1;
+background-color:#696969;
+
+}
+.nav__left ul li:hover ul.subMenu{
+    display:block;
+}
+
+
+.nav__left ul li ul.subMenu li a{
+    display:block;
+}
+.nav__left ul li ul.subMenu li a:hover{
+
+    background-color: #3b84b0;
+    color:white;
+}
+
 .nav__right{
     color:white;
     text-align:right;
     width:10%;
     padding:20px;
 }
+
+
