@@ -5,11 +5,14 @@
     .row{
         display:block;
     }
+    .icon{
+        display:none;
+    }
   label, input{
     display: inherit;
    }
+
    
-   /*
     nav .row, input#menu{
         display:none;
     }
@@ -24,8 +27,8 @@
     .nav__left ul{
         display:block;
         transition: 0.75s;
-    } */
-    nav , input#navbox{
+    }
+    /* nav , input#navbox{
         display:none;
     }
     input#navbox:checked ~ nav{
@@ -47,7 +50,7 @@
    .nav__left ul{
     display:block;
     transition: 0.75s;
-   }
+   } */
 
    .main__left{
     width: 100%;
@@ -57,10 +60,17 @@
     margin:0;
   }
   .productHome__list {
-  
+  width: 100%;
     grid-template-columns: auto auto;
 }
 .productHome__title .row{
+    display:flex;
+   
+}
+.asideCategory__title .row{
+    display:flex;
+}
+.asideBestseller__title .row{
     display:flex;
 }
 .productHome__heading{
