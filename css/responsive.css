@@ -5,6 +5,50 @@
     .row{
         display:block;
     }
+  label, input{
+    display: inherit;
+   }
+   
+   /*
+    nav .row, input#menu{
+        display:none;
+    }
+    input#menu:checked ~ .row{
+        display:block;
+    }
+    nav{
+        position:fixed;
+        top:0;
+        left:0;
+    }
+    .nav__left ul{
+        display:block;
+        transition: 0.75s;
+    } */
+    nav , input#navbox{
+        display:none;
+    }
+    input#navbox:checked ~ nav{
+        display:block;
+    }
+   nav{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 2;
+   }
+   label{
+    position:fixed;
+    top:0;
+    
+    z-index: 2;
+    left:0;
+   }
+   .nav__left ul{
+    display:block;
+    transition: 0.75s;
+   }
+
    .main__left{
     width: 100%;
    }
@@ -46,4 +90,19 @@
     grid-template-columns: auto;
     
 }
+.footer__bottom{
+    width: 100%;
+
+}
+.footer__bottom .row{
+    display:flex;
+}
+.footerBottom__left{
+    width: 50%;
+}
+.footerBottom__right{
+    width: 50%;
+    text-align: left;
+}
+
 }

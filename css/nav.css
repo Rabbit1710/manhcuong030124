@@ -1,64 +1,113 @@
-nav{
-    background-color:#222326;
-    
-}
-.nav__left{
-    width:90%;
-    
-}
-.nav__left ul{
-    margin:0;
-    padding:0;
-    display:flex;
-}
-.nav__left ul li{
-    list-style:none;
-    position:relative;
-    
-}
-
-.nav__left ul li a:hover{
-    background-color: #696969;
-}
-.nav__left ul li.active a{
-    background-color: #696969;
-}
-    
-.nav__left ul li a{
-    text-decoration: none;
-    font-size:14px;
-    text-transform: uppercase;
-    color:white;
-    display:block;
-    padding:20px;
-} 
-.nav__left ul li ul.subMenu{
-    position: absolute;
-   display:none;
-    width: 200px;
+nav {
+    background-color: #222326;
+position:sticky;
+top:0;
 z-index: 1;
-background-color:#696969;
-
 }
-.nav__left ul li:hover ul.subMenu{
+
+.icon{
+    color:#3b84b0;
+   position:fixed;
+   top:50;
+   right:0;
+   
+   
+}
+.icon ul{
+   padding-right:20px;
+   padding-left:20px;
+}
+.icon ul li{
+    list-style: none;
+}
+.icon ul li:hover{
+    color:#222326;
+    transition: 0.75s;
+}
+.icon li span:first-child{
+    font-size: 50px;
+}
+.icon li span:last-child{
+    font-size:20px;
+    font-weight: 100;
+    
+}
+.icon ul li span{
     display:block;
 }
-
-
-.nav__left ul li ul.subMenu li a{
-    display:block;
+.icon ul li span i{
+   padding-left:20px;
+   
 }
-.nav__left ul li ul.subMenu li a:hover{
+
+
+.nav__left {
+    width: 90%;
+
+}
+
+.nav__left ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav__left ul li {
+    list-style: none;
+    position: relative;
+
+}
+
+.nav__left ul li a:hover {
+    background-color: #696969;
+    transition: 0.75s;
+    
+    transition-timing-function: linear;
+}
+
+.nav__left ul li.active a {
+    background-color: #696969;
+}
+
+.nav__left ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+.nav__left ul li ul.subMenu {
+    position: absolute;
+    display: none;
+    width: 200px;
+    z-index: 1;
+    background-color: #696969;
+
+}
+
+.nav__left ul li:hover ul.subMenu {
+    display: block;
+}
+
+
+.nav__left ul li ul.subMenu li a {
+    display: block;
+}
+
+.nav__left ul li ul.subMenu li a:hover {
 
     background-color: #3b84b0;
-    color:white;
+    color: white;
 }
 
-.nav__right{
-    color:white;
-    text-align:right;
-    width:10%;
-    padding:20px;
+.nav__right {
+    color: white;
+    text-align: right;
+    width: 10%;
+    padding: 20px;
 }
-
-
+label, input{
+    display: none;
+}

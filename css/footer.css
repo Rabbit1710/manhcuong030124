@@ -61,6 +61,7 @@ footer{
     display:grid;
     grid-template-columns: 20px 20px 20px 20px 20px;
     grid-gap:10px;
+   
 }
 .footerTop_aboutUsNetworkSocial li span{
     display:block;
